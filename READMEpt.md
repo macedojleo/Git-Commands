@@ -79,5 +79,7 @@ _Uma lista dos comandos Git mais usados_
 | ------- | --------- |
 | `git log` | Ver modificações |
 | `git log --summary` | Ver modificações (detalhadas) |
+| `git log --oneline` | Ver modificações linha a linha |
+| `git log --branches` | Ver modificações de todas as branches |
 | `git diff [branch original] [branch alvo]` | Visualizar alterações antes de mesclar |
 
