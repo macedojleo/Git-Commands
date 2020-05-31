@@ -45,8 +45,20 @@ _Uma lista dos comandos Git mais usados_
 | `git checkout -- [nome-arquivo.txt]` | Descarta modificações de um arquivo |
 | `git merge [nome da branch]` | Faz um merge de uma branch na branch atual |
 | `git merge [source branch] [branch alvo]` | Faz um merge de uma branch em outra branch |
-| `git stash` | Tirar o estado sujo do seu diretório de trabalho |
+
+### Stashing
+
+| Comando | Descrição |
+| ------- | --------- |
+| `git stash` | cria uma branch temporária contendo a versão atual do seu projeto |
+| `git stash list` | Lista todos os stash’s criados  |
+| `git stash apply` | Restaurar todas as modificações da ultima entrada stash |
+| `git stash apply @{id}` | Restaurar todas as modificações da entrada id |
+| `git stash branch <nome-da-branch>` | Criar uma branch a partir do ultimo stash |
+| `git stash branch <nome-da-branch> stash@{id}` | Criar uma branch a partir do stash ID |
 | `git stash clear` | Remove todas as entradas 'stash' |
+| `git stash show` | Lista todos os arquivos modificados no ultimo stash |
+| `git stash create <mensagem> OU git stash save <mensagem>` | Cria um stash com uma mensagem personalizada |
 
 ### Sharing & Updating Projects
 
